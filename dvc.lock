@@ -45,8 +45,8 @@ stages:
       size: 521173
       nfiles: 2
     - path: src/train.py
-      md5: ff7ff154af3f74a61f87b353ec856b71
-      size: 1062
+      md5: 1fcf938274f34af58753fb43f91db2db
+      size: 1063
     params:
       params.yaml:
         train.min_split: 0.06

@@ -23,6 +23,7 @@ min_split = params["min_split"]
 with open(os.path.join(input, "train.pkl"), "rb") as fd:
     matrix, _ = pickle.load(fd)
 
+
 labels = np.squeeze(matrix[:, 1].toarray())
 x = matrix[:, 2:]
 
